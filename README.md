@@ -11,7 +11,7 @@ $ npm install not-only-fans --global
 ```bash
 $ not-only-fans
 ```
-###### You can also use it though npx
+###### You can also use it through npx
 ```bash
 $ npx not-only-fans
 ```
