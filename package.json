@@ -1,0 +1,32 @@
+{
+  "name": "not-only-fans",
+  "version": "1.0.0",
+  "description": "Easily download OnlyFans content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "Rodrigo Gomes da Silva <rodrigo.smscom@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "@rodrigogs/promise-pool": "^2.0.0",
+    "axios": "^0.21.1",
+    "inquirer": "^8.1.2",
+    "playwright": "^1.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-filename-rules": "^1.2.0"
+  },
+  "bin": {
+    "not-only-fans": "./index.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
